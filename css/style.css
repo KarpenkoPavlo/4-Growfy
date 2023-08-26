@@ -22,9 +22,11 @@ body {
     margin: 0 auto;
     padding: 0px 15px;
 }
-/**/
+/*page*/
 .page {
     flex: 1 1 auto;
+}
+.page__main {
 }
 /**/
 .button {
@@ -40,6 +42,9 @@ body {
     transition: background-color 0.3s ease 0s;
     line-height: 1.43; /* 22/14 */
 }
+.button__dark {
+    background: rgba(129, 129, 139, 0.20);
+}
 @media (max-width: 991.98px) {
     .button {
         padding: 14px 20px;
@@ -48,13 +53,16 @@ body {
 .button:hover {
     background-color: #66a9f1;
 }
+.button__dark:hover {
+    background: rgba(129, 129, 139, 1);
+}
 /*header*/
 .header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(13, 13, 17, 0.512);
+    /* background-color: rgba(13, 13, 17, 0.425); */
 }
 .header__container {
     display: flex;
@@ -172,14 +180,14 @@ body {
     .icon-menu span {
         top: calc(50% - 1px);
     }
-    .menu-open .icon-menu span {
+    .menu__open .icon-menu span {
         width: 0;
     }
-    .menu-open .icon-menu::before {
+    .menu__open .icon-menu::before {
         top: calc(50% - 1px);
         transform: rotate(-45deg);
     }
-    .menu-open .icon-menu::after {
+    .menu__open .icon-menu::after {
         bottom: calc(50% - 1px);
         transform: rotate(45deg);
     }
@@ -240,4 +248,25 @@ body {
         border-radius: 0;
         background: url("../img/cart.png") center / auto 30px no-repeat;
     }
+}
+/**/
+.main {
+}
+.main__container {
+}
+.main__content {
+}
+.main__title {
+}
+.main__text {
+}
+.main__actions {
+}
+.main__button {
+}
+.main__images {
+}
+.images-main {
+}
+.images-main__item {
 }
