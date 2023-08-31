@@ -33,6 +33,8 @@ body {
 }
 .page__why {
 }
+.page__advatages {
+}
 /**/
 .button {
     display: inline-block;
@@ -617,5 +619,23 @@ body {
         flex-direction: column-reverse;
     }
 }
+/*why end*/
+
+/*advantages start*/
+.advantages {
+}
+.advantages__container {
+}
+.advantages__items {
+}
+.advantages__item {
+}
+.advantages__value {
+}
+.advantages__text {
+}
+.advantages__image {
+}
+/*advantages end*/
 
 
