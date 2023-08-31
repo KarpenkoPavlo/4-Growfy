@@ -35,6 +35,8 @@ body {
 }
 .page__advatages {
 }
+.page__testimonials {
+}
 /**/
 .button {
     display: inline-block;
@@ -693,4 +695,41 @@ body {
 }
 /*advantages end*/
 
+/*testimonials start*/
+
+.testimonials {
+}
+.testimonials__container {
+}
+.testimonials__header {
+}
+.button {
+}
+.testimonials__items {
+}
+.testimonials__item {
+}
+.item-testimonial {
+}
+.item-testimonial__user {
+}
+.user-item-testimonial {
+}
+.user-item-testimonial__avatar {
+}
+.user-testimonial__avatar_1 {
+}
+.user-testimonial__body {
+}
+.user-testimonial__title {
+}
+.user-testimonial__company {
+}
+.item-testimonial__title {
+}
+.item-testimonial__text {
+}
+.item-testimonial__rating {
+}
+/*testimonials end*/
 
