@@ -40,6 +40,12 @@ body {
 .page__blog {
 }
 .page__start {
+    margin-bottom: 100px;
+}
+@media (max-width: 991.98px) {
+    .page__start {
+        margin-bottom: 50px;
+    }
 }
 /**/
 .button {
@@ -995,3 +1001,82 @@ body {
     }
 }
 /*start end*/
+
+/*footer start*/
+.footer {
+}
+.footer__main {
+}
+
+.main-fotter {
+}
+.main-footer__container {
+    display: grid;
+    gap: 64px;
+    grid-template-columns: minmax(auto, 378px) auto auto minmax(auto, 378px);
+}
+.main-footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-footer__logo {
+}
+.main-footer__text {
+}
+.main-footer__social {
+}
+
+.social {
+}
+.social__link {
+}
+
+.main-footer__label {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.main-footer__menu {
+}
+.menu-footer {
+}
+.menu-footer__list {
+    display: grid;
+    gap: 24px;
+}
+.menu-footer__item {
+}
+.menu-footer__link {
+}
+.main-footer__subscribe {
+}
+
+.subscribe {
+    display: flex;
+    gap: 16px;
+}
+.subscibe__input {
+    border: 1px solid rgba(129, 129, 139, 0.3);
+    border-radius: 50px;
+    padding: 0px 30px;
+    color: #fff;
+    background-color: transparent;
+}
+.subscibe__input::placeholder {
+    color: #999999;
+}
+.subscibe-button {
+}
+
+.footer__bottom {
+}
+
+.bottom__footer {
+}
+.bottom-footer__container {
+}
+.bottom-footer__copy {
+}
+/*footer end*/
